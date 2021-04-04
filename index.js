@@ -7,35 +7,33 @@ const generateReadme = (answers) =>
      ## Description
      ${answers.description}
 
-     ## Table of Contents
-        * [Installation](#installation)
-        * [Usage](#usage)
-        * [License](#license)
-        * [Contributing](#contributing)
-        * [Tests](#tests)
-        * [Questions](#questions)
+## Table of Contents
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
     
-     ## Installation
-     ${answers.instructions}
+## Installation
+    ${answers.instructions}
 
-     ## Usage
-     ${answers.usage}
+## Usage
+    ${answers.usage}
 
-     ## License
-     ![badge](https://img.shields.io/badge/license-${answers.license}-blue))
+## License
+    ![badge](https://img.shields.io/badge/license-${answers.license}-blue))
 
-     This project was created using the ${answers.license} license.
+    This project was created using the ${answers.license} license.
 
-     ## Contributing
-     ${answers.guidelines}
+## Contributing
+    ${answers.guidelines}
 
-     ## Tests
-     ${answers.test}
+## Tests
+    ${answers.test}
 
-     ## Questions
-
-     If you have any questions about the repo, open an issue or contact me directly at ${answers.email}. You can find more of my work at [${github}](https://github.com/${github}/)
-    `;
+## Questions
+    If you have any questions about the repo, open an issue or contact me directly at ${answers.email}. You can find more of my work at [${answers.github}](https://github.com/${answers.github}/)`;
 
 inquirer
     .prompt([
