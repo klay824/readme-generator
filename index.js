@@ -73,7 +73,7 @@ inquirer
             type: 'list',
             name: 'license',
             message: 'What license did you use?',
-            choices: ['MIT', 'Mozilla', 'Microsoft', 'Apache', 'Creative Commons', 'GNU', 'Eclipse', 'N/A'],
+            choices: ['MIT', 'Mozilla', 'Microsoft', 'Apache', 'Creative Commons', 'GNU', 'Eclipse'],
         },
         {
             type: 'input',
@@ -88,7 +88,7 @@ inquirer
     ])
     .then((answers) => {
         const readmePageContent = generateReadme(answers);
-        fs.writeFile('README.md', readmePageContent, (err) =>
-            err ? console.log(err) : console.log('Successfully created README.md!')
+        fs.writeFile('generatedREADME.md', readmePageContent, (err) =>
+            err ? console.log(err) : console.log('Successfully created generatedREADME.md!')
         );
     });
