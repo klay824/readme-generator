@@ -16,7 +16,7 @@ ${answers.description}
 * [Questions](#questions)
     
 ## Installation
-${answers.instructions}
+Please run *${answers.instructions}* in your terminal.
 
 ## Usage
 ${answers.usage}
@@ -31,10 +31,11 @@ This project was created using the ${answers.license} license.
 ${answers.guidelines}
 
 ## Tests
-${answers.test}
+To run tests, run *${answers.test}* in your terminal.
+
 
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at ${answers.email}. You can find more of my work at [${answers.github}](https://github.com/${answers.github}/)`;
+If you have any questions about the repo, open an issue or contact me directly at ${answers.email}. You can find more of my work at [${answers.github}](https://github.com/${answers.github}/).`;
 
 inquirer
     .prompt([
