@@ -1,8 +1,8 @@
-# eejh ![badge](https://img.shields.io/badge/license-MIT-blue)
+# title ![badge](https://img.shields.io/badge/license-OSL--3.0-blueviolet)
     
     
 ## Description
-hhfgj
+it does stuff
 
 
 ## Table of Contents
@@ -15,26 +15,26 @@ hhfgj
     
 
 ## Installation
-Please run *jhgjhg* in your terminal.
+Please run *npm install* in your terminal.
 
 
 ## Usage
-fggfh
+clone or fork
 
 ## License
 
-This project is covered under the MIT license.
+This project is covered under the OSL 3.0 license.
 
-You can learn more about the MIT [here](https://opensource.org/licenses/MIT/).
+You can learn more about the OSL 3.0 [here](https://opensource.org/licenses/OSL-3.0/).
 
 
 ## Contributing
-ghhg
+don't f it up
 
 
 ## Tests
-To run tests, run *ghfghf* in your terminal.
+To run tests, run *npm test* in your terminal.
 
 
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at ggh. You can find more of my work at [ghg](https://github.com/ghg/).
+If you have any questions about the repo, open an issue or contact me directly at kchadwell0226@gmail.com. You can find more of my work at [klay824](https://github.com/klay824/).
