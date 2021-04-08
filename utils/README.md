@@ -1,8 +1,8 @@
-# README Generator ![badge](https://img.shields.io/badge/license-Apache-blue)
+# title ![badge](https://img.shields.io/badge/license-Apache-blue)
     
     
 ## Description
-This project was made using node.js and the Inquirer package. The user can use the program to generate a professional readme for their own projects. To do this, the user answers a series of questions about their project, then those answers are compiled and organized into a readme.
+it does things
 
 
 ## Table of Contents
@@ -15,11 +15,11 @@ This project was made using node.js and the Inquirer package. The user can use t
     
 
 ## Installation
-Please run *npm install inquirer* in your terminal.
+Please run *npm install* in your terminal.
 
 
 ## Usage
-You can clone or fork the repo to get started.
+fork or clone
 
 ## License
 
@@ -27,7 +27,7 @@ This project is covered under the Apache license.
 
 
 ## Contributing
-If you decide to clone, please make your own branch and use pull requests instead of merging directly to the main branch.
+please do not push directly to main
 
 
 ## Tests
