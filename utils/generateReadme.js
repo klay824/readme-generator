@@ -94,9 +94,7 @@ ${answers.usage}
 
 ## License
 
-This project is covered under the ${answers.license} license.
-
-You can learn more about the ${answers.license} [here](${generateLicenseLink(answers.license)}).
+This project is covered under the [${answers.license}](${generateLicenseLink(answers.license)}) license.
 
 
 ## Contributing
