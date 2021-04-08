@@ -18,7 +18,7 @@ const generateLicenseLink = (license) => {
             path = "Apache-2.0";
             break;
 
-        case "OSL-3.0":
+        case "OSL 3.0":
             path = "OSL-3.0";
             break;
 
@@ -38,38 +38,38 @@ const generateLicenseBadge = (license) => {
 
     switch (license) {
         case "MIT":
-            licenseBadge = {name = "MIT", color: "blue"};
+            licenseBadge = { name: "MIT", color: "blue" };
             break;
 
         case "Mozilla":
-            licenseBadge = {name = "Mozilla", color: "brightgreen"};
+            licenseBadge = { name: "Mozilla", color: "brightgreen" };
             break;
 
         case "Microsoft":
-            licenseBadge = {name = "MicroSoft", color: "yellow"};
+            licenseBadge = { name: "MicroSoft", color: "yellow" };
             break;
 
         case "Apache":
-            licenseBadge = {name = "Apache", color: "orange"};
+            licenseBadge = { name: "Apache", color: "orange" };
             break;
 
-        case "OSL-3.0":
-            licenseBadge = {name = "OSL-3.0", color: "blueviolet"};
+        case "OSL 3.0":
+            licenseBadge = { name: "OSL--3.0", color: "blueviolet" };
             break;
 
         case "GNU":
-            licenseBadge = {name = "GNU", color: "red"};
+            licenseBadge = { name: "GNU", color: "red" };
             break;
 
         case "Eclipse":
-            licenseBadge = {name = "Eclipse", color: "ff69b4"};
+            licenseBadge = { name: "Eclipse", color: "ff69b4" };
             break;
     }
     return `https://img.shields.io/badge/license-${licenseBadge.name}-${licenseBadge.color}`
 }
 
 const generateReadme = (answers) =>
-    `# ${answers.title} ![badge](${generateLicenseBadge})
+    `# ${answers.title} ![badge](${generateLicenseBadge(answers.license)})
     
     
 ## Description
@@ -96,7 +96,7 @@ ${answers.usage}
 
 This project is covered under the ${answers.license} license.
 
-You can learn more about the ${answers.license} [here](${generateLicenseLink(answers.license)}.
+You can learn more about the ${answers.license} [here](${generateLicenseLink(answers.license)}).
 
 
 ## Contributing
